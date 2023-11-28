@@ -233,3 +233,65 @@ background-color:#061e37;
 .useful__btn:hover {
     background-color: RGBA(29, 233, 182, 0.7);
 }
+
+/* progress section */
+.progress {
+    display: flex;
+}
+
+.progress__item {
+    width: 25%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a {
+    background-color: #80D8FF;
+}
+.a i {
+    color: #80D8FF;
+}
+.b {
+    background-color: #82B1FF;
+   }
+   .b i {
+    color: #82B1FF;
+   }
+.c {
+    background-color: #B388FF;
+    }
+.c i {
+    color: #B388FF;
+    }
+.d {
+    background-color: #EA80FC;
+   }
+   .d i {
+    color: #EA80FC;
+   }
+   .progress__wrap {
+    display: flex;
+    align-items: center;
+   }
+   .progress__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 100%;
+    margin-right: 23px;
+   }
+   .progress__icon i {
+    font-size: 30px;
+   }
+   .progress__text {
+    color:white;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+   }
+   
+  
