@@ -293,5 +293,73 @@ background-color:#061e37;
     font-weight: 700;
     line-height: 25px;
    }
-   
+
+   /* Section Service */
+   .service {
+    padding: 100px 0;
+   }
+   .service__content {
+    margin-top: 50px;
+   }
+   /* Tabs */
+   .tabs__item {
+    width: 800px;
+    height: 50px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin: 0 auto 20px auto;
+    padding: 0 25px 25px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    cursor: pointer;
+   }
+   .tabs__item_active {
+    height: 240px;
+    cursor: default;
+   }
+   .tabs__head {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    margin: 15px;
+   }
+   .tabs__wrap {
+    display: flex;
+    align-items: center;
+   }
+   .tabs__icon i {
+    color: #061E37;
+    font-size: 25px;
+   }
+   .tabs__title {
+    color: #061E37;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 25px;
+   }
+   .tabs__down i {
+    color: #061E37;
+    font-size: 25px;
+   }
+   .tabs__img {
+    width: 35%;
+    height: 155px;
+    background: url(../img/tabs/tab_img.png) center center/cover no-repeat;
+    border-radius: 5px;
+    margin-right: 25px;
+   }
+   .tabs__text {
+    width: 63%;
+    color: #061E37;
+    line-height: 25px;
+    letter-spacing: .45px;
+    font-weight: 600;
+   }
+   .tabs__content {
+    display: flex;
+   }
   
